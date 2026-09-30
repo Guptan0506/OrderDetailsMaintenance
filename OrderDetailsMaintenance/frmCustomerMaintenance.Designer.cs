@@ -177,7 +177,7 @@
             Controls.Add(btnFind);
             Controls.Add(label1);
             Name = "frmCustomerMaintenance";
-            Text = "Customer Maintenance";
+            Text = "Navya Gupta's Customer Maintenance";
             ResumeLayout(false);
             PerformLayout();
 

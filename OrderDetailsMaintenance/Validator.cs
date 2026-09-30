@@ -8,7 +8,7 @@
             get => title;
             set => title = value;
         }
-
+        //Navya Gupta
         public static bool IsPresent(TextBox textBox)
         {
             if (textBox.Text == "")
@@ -19,7 +19,7 @@
             }
             return true;
         }
-
+        //Navya Gupta
         public static bool IsDecimal(TextBox textBox)
         {
             decimal number = 0m;
@@ -34,7 +34,7 @@
                 return false;
             }
         }
-
+        //Navya Gupta
         public static bool IsInt32(TextBox textBox)
         {
             int number = 0;
@@ -49,7 +49,7 @@
                 return false;
             }
         }
-
+        //Navya Gupta
         public static bool IsWithinRange(TextBox textBox, decimal min, decimal max)
         {
             decimal number = Convert.ToDecimal(textBox.Text);
