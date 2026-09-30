@@ -14,6 +14,7 @@ namespace OrderDetailsMaintenance
         {
             string id = txtCustomerId.Text.Trim();
             Customer customer = _context.Customers.Find(id);
+            // When the find button is clicked, if the customer exists the text fields will be populated with the customer's details
 
             if (customer != null)
             {
@@ -33,7 +34,7 @@ namespace OrderDetailsMaintenance
             string id = txtCustomerId.Text.Trim();
 
             var customer = _context.Customers.Find(id);
-
+            // if there is a customer with that ID, the values are assigned to the properties, updates the customers list, and saves the changes
             if (customer != null)
             {
                 customer.ContactName = txtContact.Text;
