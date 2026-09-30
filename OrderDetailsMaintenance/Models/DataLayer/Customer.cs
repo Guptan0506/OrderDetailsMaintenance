@@ -6,10 +6,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OrderDetailsMaintenance.Models.DataLayer;
 
+// Navya Gupta
 [Index("City", Name = "City")]
 [Index("CompanyName", Name = "CompanyName")]
 [Index("PostalCode", Name = "PostalCode")]
 [Index("Region", Name = "Region")]
+
+// Navya Gupta
 public partial class Customer
 {
     [Key]
